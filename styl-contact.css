@@ -1,0 +1,36 @@
+.hero {
+    padding: 0;
+    background-image: url("pexels-didsss-3953124.jpg");
+    width: 100%;
+    margin: 0;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.Linkedin{
+    text-align: center;
+    font-family: arial;
+    font-size: large;
+}
+
+.linkedin-name{
+    color:#DC9597
+}
+
+.mail-name{
+    color:#DC9597
+}
+
+.Mail{
+    text-align: center;
+    font-family: arial;
+    font-size: large;
+}

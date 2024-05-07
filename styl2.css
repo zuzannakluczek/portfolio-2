@@ -1,0 +1,108 @@
+/* HEADER */
+.hero {
+    padding: 0;
+    background-image: url("pexels-didsss-3953124.jpg");
+    width: 100%;
+    margin: 0;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -250px;
+  z-index: 1;
+}
+
+.main-heading {
+    text-align: center;
+    font-family: arial;
+    font-size: xx-large;
+    color: #B17A8F;
+
+  }
+.sub-heading {
+  text-align: center;
+  font-family: arial;
+}
+
+/* BUTTONS */
+
+.portfolio-path-subpage {
+  text-decoration: none;
+
+}
+
+.contact-path-subpage {
+  text-decoration: none;
+}
+
+.button-portfolio {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  text-transform: uppercase;
+  background-color: #DC9597;
+  color: #EFEDEC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 28px;
+  font-size: x-large;
+  border: none;
+  margin: auto;
+}
+
+.button-portfolio:hover{
+  background-color:#E69D71;
+  transition: 1s;
+  color: #974665;
+}
+
+.button-contact {
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  font-family: arial;
+  text-transform: uppercase;
+  background-color: #B7C0C2;
+  color: #EFEDEC;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-radius: 28px;
+  font-size: x-large;
+  text-decoration: none;
+  border: none;
+  margin: auto;
+}
+
+.button-contact:hover{
+  background-color:#E69D71;
+  transition: 1s;
+  color: #974665;
+}
+
+/*change language to polish */
+
+.polish-path-subpage {
+  display: block;
+  margin-left: -10%;
+  margin-top: -730px;
+  z-index: 1;
+}

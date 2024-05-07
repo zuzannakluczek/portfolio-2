@@ -1,0 +1,41 @@
+.hero {
+    padding: 0;
+    background-image: url("pexels-didsss-3953124.jpg");
+    width: 100%;
+    margin: 0;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+
+}
+.welcome-text {
+    font-family: Arial;
+    text-align: center;
+    font-size: xx-large;
+    }
+.my-name {
+    font-family: Arial;
+    text-align: center;
+    color: #DC9597;
+    }
+    
+.item {
+    text-decoration: none;
+    font-family: Arial;
+}
+
+.projectlist li {
+    color:#DC9597;
+    margin: 10 px;
+}
+
