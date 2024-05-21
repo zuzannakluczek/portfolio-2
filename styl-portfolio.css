@@ -1,13 +1,31 @@
 .hero {
     padding: 0;
-    background-image: url("pexels-didsss-3953124.jpg");
-    width: 100%;
+    background-color:#DC9597;
+    padding: 70px;
     margin: 0;
-    height: 300px;
+    height: 100px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    box-sizing: border-box;
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    line-height: 140%;
   }
+
+.welcome {
+    margin-left: 70 px;
+    font-family: Arial;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.name {
+    margin-left: 80 px;
+    font-family: Arial;
+    color: whitesmoke;
+    font-weight: lighter;
+}
 
 * {
 
@@ -36,6 +54,52 @@ body {
 
 .projectlist li {
     color:#DC9597;
+    margin: 10 px;
+}
+
+.frame {
+    width: 100%;
+    max-width: 300 px;
+    height: auto;
+    background-color: #FFD4BA; /* This is the rectangle-shaped frame's background color */
+    padding: 80px; /* Adjust this padding as needed for spacing around the image */
+    box-sizing: border-box; /* Ensures padding is included in the frame width */
+    align-items: flex-start;
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #815743;
+}
+
+
+.saviorposter {
+    display: block;
+    margin: 5px 0 0 20px; /* Adjust the margins as needed */
+    float: left;
+    max-width: 25%; /* Ensures the image is responsive */
+}
+
+.characteristics {
+    display: flex;
+}
+
+.char-block {
+    flex: 1; /* Each block takes up equal space */
+    background-color: #815743;
+    text-align: center;
+    font-size: larger;
+    color: Whitesmoke;
+    font-family: Arial;
+    box-sizing: border-box; /* Include padding and border in width calculation */
+    margin-right: 2px; /* Add a right margin to create a gap between blocks */
+}
+
+.char-text {
+    padding: 5px; /* Customizable padding for the text */
+}
+
+.project-about {
     margin: 10 px;
 }
 
