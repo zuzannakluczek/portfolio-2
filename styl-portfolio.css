@@ -46,7 +46,44 @@ body {
     text-align: center;
     color: #DC9597;
     }
-    
+
+.menu {
+    margin-top: 200px;
+    display: flex;
+    gap: 30px;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    text-decoration: none;
+    display: block;
+}
+
+.menu-link {
+    text-align: center;
+    color:#815743;
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 110px;
+}
+
+.menu-line {
+    text-align: center;
+    color:#815743;
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 110px;
+}
+
+.menu-link:hover{
+    transition: 0.5s;
+    color: #E69D71;
+}
+
+
 .item {
     text-decoration: none;
     font-family: Arial;
@@ -57,49 +94,89 @@ body {
     margin: 10 px;
 }
 
-.frame {
-    width: 100%;
-    max-width: 300 px;
-    height: auto;
-    background-color: #FFD4BA; /* This is the rectangle-shaped frame's background color */
-    padding: 80px; /* Adjust this padding as needed for spacing around the image */
-    box-sizing: border-box; /* Ensures padding is included in the frame width */
-    align-items: flex-start;
-    text-align: center;
-    font-size: 36px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    color: #815743;
-}
-
-
-.saviorposter {
+.poster {
+    position: relative;
+    z-index: 1;
     display: block;
-    margin: 5px 0 0 20px; /* Adjust the margins as needed */
-    float: left;
-    max-width: 25%; /* Ensures the image is responsive */
+    margin-left: auto;
+    top: 20 px;
+    max-width: 25%;
+    margin-right: auto;
 }
 
 .characteristics {
     display: flex;
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; /* Center the items vertically */
+    gap: 10px; /* Adjust the space between the items */
 }
 
 .char-block {
-    flex: 1; /* Each block takes up equal space */
-    background-color: #815743;
-    text-align: center;
-    font-size: larger;
-    color: Whitesmoke;
+    
+    background-color: #815743; /* Optional: Add a background color for better visibility */
+    text-align: center; /* Center the text inside each item */
     font-family: Arial;
-    box-sizing: border-box; /* Include padding and border in width calculation */
-    margin-right: 2px; /* Add a right margin to create a gap between blocks */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 28px;
+    color: Whitesmoke;
+    font-weight: bolder;
 }
 
-.char-text {
-    padding: 5px; /* Customizable padding for the text */
+.genre-block {
+    
+    background-color: #E69D71; /* Optional: Add a background color for better visibility */
+    text-align: center; /* Center the text inside each item */
+    font-family: Arial;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 28px;
+    color: Whitesmoke;
+    font-weight: bolder;
+}
+
+.title {
+    text-align: center;
+    font-family: Arial;
+    font-weight: 800;
+    color: #DC9597;
+    font-size: xx-large;
+}
+.undertitle {
+    text-align: center;
+    font-family: Arial;
+    font-weight: 760;
+    color:#886d60;
 }
 
 .project-about {
-    margin: 10 px;
+    text-align: justify;
+    margin-left: 740px;
+    margin-right: 740px;
+    font-family: Arial;
+    font-size: large;
+
 }
 
+.doc {
+    text-align: center; /* Center the text inside each item */
+    font-family: Arial;
+    font-size: large;
+}
+
+.doc-name {
+    text-decoration: none;
+    color:#974665;
+}
+
+.doc-name:hover {
+  transition: 0.5s;
+  color: #E69D71;
+}
+
+
+/*smaller screen customizing*/
