@@ -1,0 +1,38 @@
+* {
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .to-home {
+    margin-left: 5%;
+    color:#815743;
+    font-family: Arial;
+    text-decoration: none;
+    margin-top: 40%;
+  }
+
+  .to-home:hover{
+    transition: 0.5s;
+    color: #E69D71;
+}
+
+.title {
+    text-align: center;
+    color:#B17A8F;
+    font-family: Arial;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.about-text {
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.evr {
+    display: flex;
+    align-items: center;
+}
